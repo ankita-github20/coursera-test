@@ -1,0 +1,301 @@
+html,body,h1,h2,h3,h4,h5,h6 {
+	font-family: "Raleway", sans-serif;
+	color: black;
+	font-size: 20px;
+	height: 100%;
+	text-align: justify;
+}
+
+img{
+	width: 100%;
+	padding: 0 50px 0 50px;
+}
+
+.navbar{
+	z-index: 9999;
+	margin: 0;
+	opacity: 0.7;
+}
+
+.navbar .container-fluid{
+	background: white !important;
+	color: black !important;
+	font-size: 24px !important;
+	overflow: hidden;
+}
+
+.navbar-default .navbar-nav>li>a{
+	color: black;
+	font-size: 20px !important;
+	word-spacing: 5px;
+	text-align: center;
+}
+
+.container-fluid ul{
+	width: 100%;
+}
+
+.navbar div div ul li{
+	padding: 8px 0px;
+	float: left;
+	width: 25%;
+	display: block;
+	white-space: normal;
+	cursor: pointer;
+}
+
+.navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus{
+	background: pink;
+	color: blue;
+}
+
+#home{
+	min-height: 100%;
+	background-position: center;
+	background-size: cover;
+	background-image: url("../Images/wedding_couple.jpg");
+	padding: 100px;
+}
+
+#home h2{
+	color: white;
+	font-size: 5em;
+	text-align: center;
+	margin: 30px;
+}
+
+#home #timing{
+	margin: 30px;
+	font-size: 2em;
+	color: white;
+}
+
+#JaneJohn{
+	background: pink;
+	padding: 70px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+#JaneJohn h2{
+	font-size: 3em;
+	text-align: center;
+	margin: 50px;
+	margin-top: 50px;
+}
+
+#JaneJohn p{
+	font-size: 1em;
+	margin: 50px;
+	text-align: justify;
+	line-height: 2;
+	font-style: italic;
+}
+
+#JaneJohn div a{
+	padding: 12px 24px;
+	background: black;
+	text-decoration: none;
+	color: pink;
+	font-size: 1.3em;
+}
+
+#JaneJohn div a:hover{
+	background: grey;
+	color: black;
+}
+
+#invite{
+	min-height: 100%;
+	background-position: center;
+	background-size: cover;
+	background-image: url("../Images/flowers.jpg");
+	padding: 100px;
+	position: relative;
+}
+
+#invite > div{
+	position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    line-height: 2;
+}
+
+#invite div h2{
+	text-align: center;
+	font-size: 3em;
+	color: white;
+}
+
+#invite div h3{
+	text-align: center;
+	font-size: 2em;
+	color: white;
+}
+
+#wedding{
+	background: pink;
+	padding: 70px;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-bottom: 40px;
+	padding-top: 40px;
+}
+
+#wedding h2{
+	font-size: 3em;
+	text-align: center;
+	font-weight: bold;
+	margin: 50px;
+	margin-top: 50px;
+	margin-bottom: 70px;
+}
+
+#wedding .row{
+	color: black;
+	text-align: center;
+}
+
+#rsvp{
+	background: coral;
+	padding: 70px;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 30px;
+}
+
+#rsvp h2{
+	font-size: 2em;
+	text-align: center;
+	font-weight: bold;
+	margin: 50px;
+	margin-top: 50px;
+	margin-bottom: 70px;
+}
+
+#rsvp p{
+	font-size: 1.5em;
+	margin-bottom: 50px;
+}
+
+#rsvp button{
+	padding: 12px 24px;
+	border: 2px solid black;
+	background: aqua;
+	text-decoration: none;
+	color: black;
+	font-weight: bold;
+	font-size: 1.3em;
+}
+
+#rsvp button:hover, #rsvp button:focus{
+	background: lime;
+	color: black;
+}
+
+.modal{
+	font-size: 0.5em;
+}
+
+#rsvp .modal-title{
+	margin: 20px;
+}
+
+#rsvp .modal-header p{
+	margin-bottom: 0px;
+}
+
+#rsvp .modal-body p{
+	margin-bottom: 20px;
+	font-style: italic;
+}
+
+#rsvp input{
+	display: block;
+	border: 2px solid black;
+	font-size: 1.3em;
+	width: 90%;
+	padding: 3px 8px;
+	overflow: auto;
+	margin: 15px;
+	/*margin: 0 20px 30px 20px;*/
+}
+
+#rsvp .modal-footer button{
+	display: block;
+	width: 90%;
+	margin: 30px;
+	margin-top: 0;
+	margin-bottom: 10px;
+}
+
+#rsvp #going{
+	background: lime;
+}
+
+#rsvp #cantCome{
+	background: red;
+}
+
+footer{
+	background: black;
+	color: pink;
+    padding-top: 16px!important;
+    padding-bottom: 16px!important;
+    margin-bottom: 65px;
+}
+
+.fa{
+	font-size: 1.3em;
+}
+
+p.fa{
+	padding: 0 10px;
+}
+
+@media (max-width: 767px){
+	footer{
+		margin-bottom: 0;
+	}
+}
+
+@media (max-width: 480px){
+	#home{
+		padding-left: 30px;
+		padding-right: 30px;
+	}
+	#JaneJohn{
+		padding-top: 0;
+	}
+	#JaneJohn p{
+		margin-top: 0;
+	}
+	#wedding{
+		padding-left: 30px;
+		padding-right: 30px;
+		font-size: 0.8em;
+	}
+	#wedding h2{
+		margin: 0 0 30px 0;
+	}
+	#imgWed{
+		margin-bottom: 0px;
+	}
+	#wedding .row h2{
+		margin-top: 30px;
+	}
+	img{
+		padding: 0;
+		padding-bottom: 30px;
+	}
+	#rsvp{
+		padding-top: 40;
+	}
+	#rsvp h2{
+		margin-top: 0;
+	}
+	#rsvp .modal-footer button{
+		margin: 10px 15px;
+	}
+}
